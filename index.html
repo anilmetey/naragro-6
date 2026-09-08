@@ -30,7 +30,7 @@
   <link rel="preload" as="image" href="assets/img/naragro-emblem.png">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/main.css?v=3.1" rel="stylesheet">
+  <link href="assets/css/main.css?v=3.2" rel="stylesheet">
 </head>
 
 <body>
@@ -60,13 +60,15 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/naragro-logo-1.png" alt="">
+        <img src="assets/img/naragro-logo-1.png" alt="Naragro — home">
         <!-- <h1>Naragro<span>.</span></h1> -->
       </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
+      <button type="button" class="mobile-nav-toggle" aria-label="Open menu" aria-controls="navbar" aria-expanded="false">
+        <svg class="menu-open-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="menu-close-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+      </button>
+      <nav id="navbar" class="navbar" aria-label="Main navigation">
         <ul>
           <li><a href="#about" class="active">About US</a></li>
           <li><a href="#stats-counter">Services</a></li>
@@ -99,21 +101,8 @@
           </div>
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-            <div class="naragro-globe-wrapper">
-              <div class="globe-badge">
-                <img src="assets/img/naragro-emblem.png" alt="Naragro" class="globe-badge-icon">
-                <span class="badge-dot"></span>
-                <span>Global Supply Network</span>
-              </div>
-              <canvas id="naragroGlobeCanvas"></canvas>
-              <div class="globe-bottom-brand">
-                <div class="brand-shimmer-title">NARAGRO</div>
-                <div class="brand-tagline-wrap">
-                  <span class="brand-tag-dot"></span>
-                  <span class="brand-tagline">GLOBAL AGRICULTURAL COMMODITIES</span>
-                  <span class="brand-tag-dot"></span>
-                </div>
-              </div>
+            <div class="naragro-trade-illustration">
+              <img src="assets/img/agricultural-trade-engraving.png" width="1536" height="1024" alt="Engraved illustration of a grain carrier at an export terminal, with storage silos and wheat in the foreground." decoding="async" fetchpriority="high">
             </div>
           </div>
 
@@ -147,35 +136,35 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Palm oil</a></h4>
+                <h4>Palm oil</h4>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Sunflower oil</a></h4>
+                <h4>Sunflower oil</h4>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Rapeseed oil</a></h4>
+                <h4>Rapeseed oil</h4>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Soybean oil</a></h4>
+                <h4>Soybean oil</h4>
               </div>
               
             </div><!-- End Icon Box -->
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Olive oil</a></h4>
+                <h4>Olive oil</h4>
               </div>
               
             </div><!-- End Icon Box -->
@@ -197,21 +186,21 @@
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Ship chartering for both dry and liquid cargoes.</a></h4>
+                <h4>Ship chartering for both dry and liquid cargoes.</h4>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Warehousing for both dry and liquid cargoes.</a></h4>
+                <h4>Warehousing for both dry and liquid cargoes.</h4>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Port operations and local logistics services.</a></h4>
+                <h4>Port operations and local logistics services.</h4>
               </div>
             </div><!-- End Icon Box -->
 
@@ -235,14 +224,14 @@
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                   <i class="bi bi-patch-check flex-shrink-0"></i>
                   <div>
-                    <h4><a href="" class="stretched-link">Sunflower seeds</a></h4>
+                    <h4>Sunflower seeds</h4>
                   </div>
                 </div><!-- End Icon Box -->
     
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-patch-check flex-shrink-0"></i>
                   <div>
-                    <h4><a href="" class="stretched-link">Soybeans</a></h4>
+                    <h4>Soybeans</h4>
                   </div>
                 </div><!-- End Icon Box -->
     
@@ -752,6 +741,8 @@
       </div>
     </section><!-- End References Section -->
 
+  </main>
+
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
@@ -808,7 +799,7 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#about" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -817,10 +808,9 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js?v=3.1"></script>
+  <script src="assets/js/main.js?v=3.2"></script>
 
 </body>
 

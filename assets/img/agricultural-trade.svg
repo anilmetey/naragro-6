@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520" fill="none">
+<title>Agricultural trade</title>
+<desc>A quiet line illustration connecting grain fields, storage silos and a cargo ship.</desc>
+<g stroke-linecap="round" stroke-linejoin="round">
+<!-- Quiet horizon and agricultural landscape -->
+<path d="M65 354H535M90 375H510" stroke="#E8E7E5"/>
+<path d="M80 333C159 305 206 313 258 334M75 343C153 321 195 328 229 340" stroke="#E8E7E5"/>
+<!-- Storage at origin -->
+<g stroke="#C9C6C5" stroke-width="1.6">
+<path d="M141 315V229L175 201L209 229V315M141 229H209M148 246H202M148 269H202M148 292H202"/>
+<path d="M212 315V246L240 223L268 246V315M212 246H268M219 262H261M219 282H261M219 302H261"/>
+<path d="M161 315V300H188V315M136 315H274M175 201V190M240 223V214"/>
+</g>
+<path d="M141 229L175 201L209 229M212 246L240 223L268 246" stroke="#762638" stroke-width="1.8"/>
+<!-- Two restrained wheat stems -->
+<g stroke="#C6AB75" stroke-width="1.6">
+<path d="M98 330V268M98 293C84 290 82 282 83 277C94 279 98 284 98 293ZM98 307C111 303 115 295 113 289C102 292 98 298 98 307ZM98 280C106 269 104 262 99 257C92 264 91 272 98 280Z"/>
+<path d="M118 338V308M118 322C129 318 132 311 130 307C121 309 118 315 118 322"/>
+</g>
+<!-- Trade route, left open and deliberately understated -->
+<path d="M234 187C314 131 433 162 452 237" stroke="#DEDBD9" stroke-width="1.5" stroke-dasharray="3 8"/>
+<circle cx="234" cy="187" r="3" fill="#762638"/>
+<path d="M446 233L453 242L458 232" stroke="#762638" stroke-width="1.5"/>
+<!-- Ocean freight at destination -->
+<g stroke="#C9C6C5" stroke-width="1.6">
+<path d="M315 307H520L498 335H338L315 307Z" fill="#FAF9F8"/>
+<path d="M338 307V282H375V307M379 307V282H416V307M420 307V282H457V307M357 282V259H394V282M398 282V259H435V282"/>
+<path d="M470 307V267H495V307M476 267V253H489V267M476 279H488M476 288H488M483 253V243"/>
+<path d="M347 290V299M356 290V299M365 290V299M388 290V299M398 290V299M408 290V299M429 290V299M439 290V299M448 290V299M367 267V275M377 267V275M386 267V275M408 267V275M418 267V275M428 267V275" stroke="#E0DDDB"/>
+</g>
+<path d="M322 316H513" stroke="#762638" stroke-width="1.7"/>
+<path d="M321 346C334 339 347 353 360 346S386 353 399 346S425 353 438 346S464 353 477 346S503 353 516 346" stroke="#DEDCD9" stroke-width="1.4"/>
+<circle cx="373" cy="163" r="4" fill="#FEB900" fill-opacity=".55"/>
+</g>
+</svg>
