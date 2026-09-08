@@ -50,3 +50,5 @@ Ardından tarayıcınızda `http://localhost:3000` adresini açın.
 
 ### Seçenek 3: Doğrudan Dosya Açma
 `index.html` dosyasını çift tıklayarak veya herhangi bir tarayıcıda (Chrome, Safari, Edge vb.) sürükleyip bırakarak doğrudan görüntüleyebilirsiniz.
+
+# naragro-2
